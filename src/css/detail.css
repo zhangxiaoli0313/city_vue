@@ -1,0 +1,74 @@
+html,body,#app{
+    position: relative;
+}
+#city{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+#city h2{
+    height: 50px;
+    background: #7B68EE;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+}
+.box1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#city h2 i{
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    margin-right: 20px;
+}
+#city p{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    line-height: 40px;
+}
+#city p span:nth-child(1){
+    margin-left: 10px;
+}
+#city p span:nth-child(2){
+    margin-right: 10px;
+}
+.box{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 110px;
+}
+h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-ui li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+.city-ui li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+.list-all{
+    margin-top: 30px;
+}
+.city-ui{
+    margin-top: 20px;
+}
+.active{
+    border: 1px solid #f50;
+    color: #f50;
+}
